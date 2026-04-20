@@ -1,11 +1,2 @@
 #!/bin/bash
-echo "Best School" > "\*\\\"'Best School'\"\\*$\?\*\*\*\*\*:)"
-chmod u+x 7-file
-./7-file
-ls -t | head -n 1 | wc -c
-git add 7-file
-git commit -m "Final version with correct quoting"
-git push
-cat << 'EOF' > 7-file
-#!/bin/bash
 echo "Best School" > '\*\\'"'"'"Best School"'"\'"\\*$\?\*\*\*\*\*:)'
