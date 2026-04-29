@@ -1,1 +1,1 @@
-Technical tasks for shell variables and expansions.
+Shell variables and expansions project
