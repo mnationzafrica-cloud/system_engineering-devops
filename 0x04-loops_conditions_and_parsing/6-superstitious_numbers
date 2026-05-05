@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# This script loops 1 to 20 using a case statement for specific numbers
+n=1
+while [ "$n" -le 20 ]
+do
+    case "$n" in
+        4)
+            echo "4"
+            echo "bad luck"
+            ;;
+        8)
+            echo "8"
+            echo "good luck"
+            ;;
+        9)
+            echo "9"
+            echo "not lucky"
+            ;;
+        *)
+            echo "$n"
+            ;;
+    esac
+    n=$((n + 1))
+done
