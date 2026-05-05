@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
-# This script loops 1 to 20 using a case statement for specific numbers
+# This script displays numbers 1 to 20 with specific cultural superstitious messages
 n=1
 while [ "$n" -le 20 ]
 do
     case "$n" in
         4)
-            echo "4"
-            echo "bad luck"
-            ;;
-        8)
-            echo "8"
-            echo "good luck"
+            echo "$n"
+            echo "bad luck from China"
             ;;
         9)
-            echo "9"
-            echo "not lucky"
+            echo "$n"
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "$n"
+            echo "bad luck from Italy"
             ;;
         *)
             echo "$n"
