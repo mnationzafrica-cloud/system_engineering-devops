@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script captures SIGTERM and displays a message instead of terminating
+trap "echo I am invincible!!!" SIGTERM
+while true; do
+    echo "To infinity and beyond"
+done
